@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Queens
+comment1.params=
+comment1.target=void\ setup()
+comment1.text=\r\n\ Fill\ all\ positions\ in\ the\ chessboard\ with\ empty\ spaces\ to\ allow\ queens\ to\ be\ placed\r\n
+comment2.params=
+comment2.target=void\ printBoard()
+comment2.text=\r\n\ Print\ the\ current\ state\ of\ the\ board\r\n
+comment3.params=
+comment3.target=void\ placeFirstQueen()
+comment3.text=\r\n\ The\ first\ queen\ is\ placed\ via\ user\ input\r\n
+comment4.params=chessBoard\ row\ column
+comment4.target=boolean\ isSafe(java.lang.String[][],\ int,\ int)
+comment4.text=\r\n\ Check\ all\ possible\ conflicts\ for\ each\ new\ queen\r\n
+comment5.params=chessBoard\ column
+comment5.target=boolean\ placeRemainingQueens(java.lang.String[][],\ int)
+comment5.text=\r\n\ Begin\ placing\ queens\ by\ calling\ isSafe()\ method\ recursively\r\n
+comment6.params=
+comment6.target=void\ solve8Queens()
+comment6.text=\r\n\ Initialise\ starting\ column\ for\ placing\ the\ remaining\ queens,\ so\ it\ can\ be\r\n\ called\ in\ the\ main\ class\r\n
+numComments=7
